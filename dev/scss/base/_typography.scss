@@ -1,3 +1,41 @@
 /* =============
     Typography
 ============= */
+
+@mixin hanken($font-weight, $color){
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    letter-spacing: 1px;
+    padding: 10px 0 20px;
+    font-weight: $font-weight;
+    color: $color;
+    
+}
+@mixin lato($font-weight, $color){
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: $font-weight;
+    padding: 10px 0 20px;
+}
+h1{
+    @include hanken(700, $navyblue);
+    font-size: 42px;
+    line-height: 55px;
+}
+h2{
+    @include lato(500, $greygold);
+    font-size: 36px;
+    line-height: 47px;
+}
+h3{
+
+}
+h4{
+
+}
+h5{
+
+}
+h6{
+    
+}

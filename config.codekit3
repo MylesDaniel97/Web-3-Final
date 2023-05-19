@@ -40,11 +40,126 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/deploy\/scripts-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/deploy\/scripts-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/content\/checkout page\/_billing.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/checkout page\/_billing.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/checkout page\/_card-info.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/checkout page\/_card-info.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/checkout page\/_cart.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/checkout page\/_cart.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/checkout page\/_contact-info.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/checkout page\/_contact-info.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/checkout page\/_method.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/checkout page\/_method.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/checkout page\/_shipping.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/checkout page\/_shipping.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/product-page\/_colors.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/product-page\/_colors.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/product-page\/_hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/product-page\/_hero.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/product-page\/_media.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/product-page\/_media.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/product-page\/_overview.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/product-page\/_overview.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/product-page\/_reviews.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/product-page\/_reviews.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/product-page\/_similar_products.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/product-page\/_similar_products.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/Thank You\/_thanks.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/Thank You\/_thanks.html",
+      "oF" : 0
+    },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/global\/footer.html",
       "oF" : 0
     },
@@ -60,7 +175,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/global\/header.html",
       "oF" : 0
     },
@@ -250,7 +365,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/styles.css",
+      "oAP" : "\/deploy\/css\/styles.css",
       "oF" : 2,
       "oS" : 0,
       "pg" : 0,
