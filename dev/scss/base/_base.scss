@@ -12,3 +12,48 @@ $darkblue:#06101E;
 $pastelleyellow:#F0DDAB;
 $backgroundgrey:#626262;
 
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+@mixin flex(){
+    display: flex;
+    flex-direction: column;
+    @include lg{
+        display: flex;
+        flex-direction: row;
+    }
+    
+}
+@mixin grid-three(){
+    display: grid;
+    grid-template-columns: 1fr;
+    @include lg{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@mixin grid-two(){
+    display: grid;
+    grid-template-columns: 1fr;
+    @include lg{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+ ul{
+    li{
+        .box-color{
+            background-color: $navyblue;
+        }
+    }
+    @include grid-three();
+    .two-colum{
+        @include grid-two();
+
+    }
+ }
+
+

@@ -21,6 +21,37 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/.mobile_hairdry.gif.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/.mobile_hairdry.gif.icloud",
+      "oF" : 0
+    },
+    "\/deploy\/img\/Hair dryer.gif" : {
+      "ft" : 4194304,
+      "iS" : 45972113,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Hair dryer.gif",
+      "oF" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/deploy\/img\/MoneyBack.png" : {
+      "ft" : 32768,
+      "iS" : 8151,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/MoneyBack.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/Rectangle 18-1.png" : {
       "ft" : 32768,
       "iS" : 166343,
@@ -59,6 +90,29 @@
       "ou" : "lpckwebp-none",
       "q" : 90,
       "rq" : 75
+    },
+    "\/deploy\/img\/search_icon.png" : {
+      "ft" : 32768,
+      "iS" : 1045,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/search_icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/search_icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/search_icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/deploy\/img\/SharkFlexAir 1.png" : {
       "ft" : 32768,
@@ -112,6 +166,42 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/deploy\/img\/SharkHypAir2.jpg" : {
+      "ft" : 16384,
+      "iS" : 310608,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/SharkHypAir2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/shopping_icon.png" : {
+      "ft" : 32768,
+      "iS" : 1246,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/shopping_icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/shopping_icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/shopping_icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/Specifications Decal and text.png" : {
       "ft" : 32768,
       "iS" : 70013,
@@ -130,6 +220,45 @@
       "iS" : 194061,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/Specifications Icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/User_Manual.png" : {
+      "ft" : 32768,
+      "iS" : 23687,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/User_Manual.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Warranty.png" : {
+      "ft" : 32768,
+      "iS" : 29726,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Warranty.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/x_icon.png" : {
+      "ft" : 32768,
+      "iS" : 957,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/x_icon.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -262,6 +391,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/product-page\/_similar_products.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/product-page\/_specs.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/product-page\/_specs.html",
       "oF" : 0
     },
     "\/dev\/content\/Thank You\/_thanks.kit" : {
