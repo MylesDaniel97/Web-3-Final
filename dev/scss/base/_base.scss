@@ -44,10 +44,8 @@ img{
     }
 }
  ul{
-    li{
-        .box-color{
-            background-color: $navyblue;
-        }
+    .box-color{
+        background-color: $navyblue;
     }
     @include grid-three();
     .two-colum{

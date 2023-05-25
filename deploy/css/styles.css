@@ -336,7 +336,7 @@ ul {
   display: grid;
   grid-template-columns: 1fr;
 }
-ul li .box-color {
+ul .box-color {
   background-color: #0B203D;
 }
 @media (min-width: 1024px) {
