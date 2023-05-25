@@ -1,0 +1,17 @@
+#reviews{
+    background-image: linear-gradient($black, $navyblue);
+    margin: 0px 0px 0px 0px;
+    padding-top: 132px;
+    a{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        .right{
+            display: flex;
+            flex-direction: column;
+            align-items: right;
+        }
+        
+        
+    }
+}

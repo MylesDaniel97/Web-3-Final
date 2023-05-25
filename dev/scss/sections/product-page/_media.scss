@@ -1,0 +1,21 @@
+#media{
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    aside{
+        display: none;
+    }
+    @include lg{
+        ddisplay: grid;
+        grid-template-columns: 1fr;
+        div{
+            display: none;
+        }
+        aside{
+            display: grid;
+            grid-template-columns: 1fr;
+            display: inline;
+        }
+    }
+}

@@ -8,6 +8,7 @@
     letter-spacing: 1px;
     padding: 10px 0 20px;
     font-weight: $font-weight;
+    color: $white;
     
 }
 @mixin lato($font-weight){
@@ -15,11 +16,28 @@
     font-style: normal;
     font-weight: $font-weight;
     padding: 10px 0 20px;
+    color: $white;
+}
+@mixin btn-font(){
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26.19px;
+    letter-spacing: -0.025em;
+}
+@mixin link-font(){
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26.06px;
+    text-decoration-line: underline;
 }
 h1{
     @include hanken(700);
     font-size: 42px;
-    line-height: 55px;
+    line-height: 0;
 }
 h2{
     @include lato(700);
@@ -43,3 +61,4 @@ h4{
     line-height: 26.06px;
     text-decoration-line: underline;
 }
+

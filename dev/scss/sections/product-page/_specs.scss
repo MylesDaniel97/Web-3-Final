@@ -1,0 +1,22 @@
+#Specification{
+    background: $black;
+    padding-bottom: 32px;
+    margin: 0px 0px 0px 0px;
+    ul{
+        
+        li{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 88px;
+            div{
+                img{
+                    height: 200px;
+                }
+            }
+        }
+
+    }
+
+
+}

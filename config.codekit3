@@ -21,21 +21,25 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/.Hair dryer.gif.icloud" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
+    "\/deploy\/img\/Hair dryer.gif" : {
+      "ft" : 4194304,
+      "iS" : 43915709,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/.Hair dryer.gif.icloud",
-      "oF" : 0
+      "oAP" : "\/deploy\/img\/Hair dryer.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
     },
-    "\/deploy\/img\/.mobile_hairdry.gif.icloud" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
+    "\/deploy\/img\/mobile_hairdry.gif" : {
+      "ft" : 4194304,
+      "iS" : 80670274,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/.mobile_hairdry.gif.icloud",
-      "oF" : 0
+      "oAP" : "\/deploy\/img\/mobile_hairdry.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
     },
     "\/deploy\/img\/MoneyBack.png" : {
       "ft" : 32768,
@@ -151,6 +155,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/deploy\/img\/SharkHypAir1_mobile.png" : {
+      "ft" : 32768,
+      "iS" : 182835,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/SharkHypAir1_mobile.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/SharkHypAir1.png" : {
       "ft" : 32768,
       "iS" : 651251,
@@ -202,22 +219,9 @@
     },
     "\/deploy\/img\/Specifications Decal and text.png" : {
       "ft" : 32768,
-      "iS" : 70013,
+      "iS" : 199624,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/Specifications Decal and text.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Specifications Icon.png" : {
-      "ft" : 32768,
-      "iS" : 194061,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Specifications Icon.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,

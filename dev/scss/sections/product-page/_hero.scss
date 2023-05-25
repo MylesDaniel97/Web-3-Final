@@ -1,0 +1,59 @@
+#hero{
+    padding-bottom: 0;
+    margin: 0px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    ol{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: grid;
+        grid-template-areas:
+        "imgone";
+
+        .imgone{
+            height: 374px;
+            grid-area: imgone;
+            background-image: url(../img/SharkHypAir1_mobile.png);
+            background-repeat: repeat;
+            background-size: cover;
+            background-position: center center;
+        }
+        .imgtwo{
+            height: 590px;
+            grid-area: imgtwo;
+            background-image:url(../img/SharkHypAir1.png);
+            background-repeat: repeat;
+            background-size: cover;
+            background-position: center center;
+            display: none;
+        }
+        @include lg{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            grid-template-columns: 1fr;
+            grid-template-areas: 
+            "imgtwo";
+            .imgtwo{
+                display: grid;
+            }
+        }
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+        .txt-pink{
+            color: $pink; 
+         }
+        
+        @include lg{
+            position: absolute;
+            left: 1184px;
+            top: 473px;
+        }
+    }
+}

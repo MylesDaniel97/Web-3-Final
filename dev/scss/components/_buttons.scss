@@ -1,3 +1,43 @@
 /* =============
     Buttons
 ============= */
+@mixin cart-button(){
+    background-color: $greygold;
+    padding: 8px 16px;
+    transition: .3s;
+    color: $black;
+    text-decoration: none;
+    border-radius: 8px;
+    @include btn-font();
+    &:hover{
+        background-color: $beige;
+        transition: 0.3s;
+    }
+    &:active{
+        background-color: $navyblue;
+        color: $pink;
+        transition: .3s;
+    }
+}
+
+@mixin link-button(){
+    @include link-font();
+    color: $white;
+    padding: 8px 16px;
+    transition: .3s;
+    &:hover{
+        color: $beige;
+        transition: 0.3s;
+    }
+    &:active{
+        color: $accentviolet;
+        transition: .3s;
+    }
+}
+
+a.cart-button{
+    @include cart-button();
+}
+a.link-button{
+    @include link-button();
+}
