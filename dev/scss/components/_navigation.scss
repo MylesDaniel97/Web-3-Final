@@ -1,3 +1,99 @@
 /* =============
     Navigation
 ============= */
+header{
+    background-color: $black;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include lg{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #burger-btn{
+        display: block;
+        span, span::before, span::after{
+        height: 4px;
+        width: 31px;
+        background-color: $white;
+        border-radius:100px;
+        
+
+        }
+        span{
+        display: block;
+        position: relative;
+        
+        &::before{
+        position: absolute;
+        content:" ";
+        top: -10px;
+        }
+        
+        &::after{
+        position: absolute;
+        content:" ";
+        top: 10px;
+        }
+        }
+    }
+    #top-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        a{
+            text-decoration: none;
+        }
+        
+        input{
+            background-color: $navyblue;
+            color: $white;
+            border: 0 solid;
+            border-radius: 100px;
+            height: 40px;
+            width: 294px;
+            padding: 16px;
+            display: none;
+            
+
+            @include lg{
+                display: inline;
+            }
+        }
+        ::placeholder{color: $white;}
+
+    }
+    #burger-container{
+        display: block;
+        position: relative;
+        z-index: 3;
+        @include lg{
+            display: none;
+        }
+    }
+    #main-menu{
+        display: none;
+        width: 100%;
+        ol{
+            li{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                a{
+                    text-decoration: none;
+                }
+            }
+            
+        }
+        @include lg{
+            display: inline;
+        }
+        
+    }
+
+
+    
+}

@@ -352,12 +352,12 @@ ul .box-color {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-ul .two-colum {
+ul .two-column {
   display: grid;
   grid-template-columns: 1fr;
 }
 @media (min-width: 1024px) {
-  ul .two-colum {
+  ul .two-column {
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -500,6 +500,97 @@ textarea {
 /* =============
     Navigation
 ============= */
+header {
+  background-color: #000000;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (min-width: 1024px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+}
+header #burger-btn {
+  display: block;
+}
+header #burger-btn span, header #burger-btn span::before, header #burger-btn span::after {
+  height: 4px;
+  width: 31px;
+  background-color: #FFFFFF;
+  border-radius: 100px;
+}
+header #burger-btn span {
+  display: block;
+  position: relative;
+}
+header #burger-btn span::before {
+  position: absolute;
+  content: " ";
+  top: -10px;
+}
+header #burger-btn span::after {
+  position: absolute;
+  content: " ";
+  top: 10px;
+}
+header #top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+header #top-nav a {
+  text-decoration: none;
+}
+header #top-nav input {
+  background-color: #0B203D;
+  color: #FFFFFF;
+  border: 0 solid;
+  border-radius: 100px;
+  height: 40px;
+  width: 294px;
+  padding: 16px;
+  display: none;
+}
+@media (min-width: 1024px) {
+  header #top-nav input {
+    display: inline;
+  }
+}
+header #top-nav ::placeholder {
+  color: #FFFFFF;
+}
+header #burger-container {
+  display: block;
+  position: relative;
+  z-index: 3;
+}
+@media (min-width: 1024px) {
+  header #burger-container {
+    display: none;
+  }
+}
+header #main-menu {
+  display: none;
+  width: 100%;
+}
+header #main-menu ol li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header #main-menu ol li a {
+  text-decoration: none;
+}
+@media (min-width: 1024px) {
+  header #main-menu {
+    display: inline;
+  }
+}
+
 /* =============
     Header
 ============= */
@@ -507,23 +598,23 @@ textarea {
     Footer
 ============= */
 #hero {
-  padding-bottom: 0;
-  margin: 0px 0px 0px 0px;
+  padding: 0;
+  margin: 0;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 100%;
+  position: relative;
 }
 #hero ol {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: grid;
   grid-template-areas: "imgone";
 }
 #hero ol .imgone {
   height: 374px;
   grid-area: imgone;
   background-image: url(../img/SharkHypAir1_mobile.png);
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -544,6 +635,9 @@ textarea {
     grid-template-columns: 1fr;
     grid-template-areas: "imgtwo";
   }
+  #hero ol .imgone {
+    display: none;
+  }
   #hero ol .imgtwo {
     display: grid;
   }
@@ -552,7 +646,7 @@ textarea {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 16px;
   gap: 8px;
 }
 #hero div .txt-pink {
@@ -561,14 +655,13 @@ textarea {
 @media (min-width: 1024px) {
   #hero div {
     position: absolute;
-    left: 1184px;
-    top: 473px;
+    bottom: 0;
+    right: 0;
   }
 }
 
 #colors {
-  margin: 0px 0px 0px 0px;
-  padding-top: 0;
+  margin: 32px 0px 0px 0px;
 }
 #colors ul li {
   max-width: 332px;
@@ -628,7 +721,7 @@ textarea {
 #Specification {
   background: #000000;
   padding-bottom: 32px;
-  margin: 0px 0px 0px 0px;
+  margin: 0;
 }
 #Specification ul li {
   display: flex;
@@ -637,13 +730,14 @@ textarea {
   gap: 88px;
 }
 #Specification ul li div img {
-  height: 200px;
+  width: 245px;
 }
 
 #reviews {
   background-image: linear-gradient(#000000, #0B203D);
-  margin: 0px 0px 0px 0px;
+  margin: 0;
   padding-top: 132px;
+  position: relative;
 }
 #reviews a {
   display: flex;
@@ -653,5 +747,4 @@ textarea {
 #reviews a .right {
   display: flex;
   flex-direction: column;
-  align-items: right;
 }

@@ -55,7 +55,8 @@ img{
         gap: 88px;
     }
     @include grid-three();
-    .two-colum{
+
+    .two-column{
         @include grid-two();
 
     }

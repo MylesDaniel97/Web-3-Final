@@ -1,7 +1,8 @@
 #reviews{
     background-image: linear-gradient($black, $navyblue);
-    margin: 0px 0px 0px 0px;
+    margin: 0;
     padding-top: 132px;
+    position: relative;
     a{
         display: flex;
         flex-direction: column;
@@ -9,7 +10,7 @@
         .right{
             display: flex;
             flex-direction: column;
-            align-items: right;
+            
         }
         
         
