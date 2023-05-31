@@ -1,11 +1,16 @@
 #overview{
     ul{
         li{
+            img{
+                width: 100%;
+            }
             div{
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                justify-content: center center;
+                h3{
+                    text-align: center;
+                }
             }
         }
     }

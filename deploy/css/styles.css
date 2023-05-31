@@ -333,10 +333,6 @@ img {
   max-width: 100%;
 }
 
-ul {
-  display: grid;
-  grid-template-columns: 1fr;
-}
 ul .box {
   background-color: #06101E;
   padding: 16px;
@@ -347,17 +343,39 @@ ul .box-color {
   padding: 16px;
   gap: 88px;
 }
-@media (min-width: 1024px) {
-  ul {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-ul .two-column {
+ul.three-column {
   display: grid;
   grid-template-columns: 1fr;
 }
 @media (min-width: 1024px) {
-  ul .two-column {
+  ul.three-column {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+ul.two-column {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 1024px) {
+  ul.two-column {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+ul.four-column {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 1024px) {
+  ul.four-column {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+ul li.two-column {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 1024px) {
+  ul li.two-column {
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -514,27 +532,16 @@ header {
   }
 }
 header #burger-btn {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
 }
-header #burger-btn span, header #burger-btn span::before, header #burger-btn span::after {
+header #burger-btn div {
   height: 4px;
   width: 31px;
   background-color: #FFFFFF;
   border-radius: 100px;
-}
-header #burger-btn span {
-  display: block;
-  position: relative;
-}
-header #burger-btn span::before {
-  position: absolute;
-  content: " ";
-  top: -10px;
-}
-header #burger-btn span::after {
-  position: absolute;
-  content: " ";
-  top: 10px;
 }
 header #top-nav {
   display: flex;
@@ -574,8 +581,22 @@ header #burger-container {
   }
 }
 header #main-menu {
-  display: none;
   width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  header #main-menu {
+    background-color: green;
+    transition: 0.3s;
+    height: 100vw;
+    width: 80%;
+    position: absolute;
+    top: 0;
+    right: -100%;
+  }
+  header #main-menu.show-menu {
+    right: 0;
+    transition: 0.3s;
+  }
 }
 header #main-menu ol li {
   display: flex;
@@ -687,11 +708,16 @@ header #main-menu ol li a {
   gap: 16px;
 }
 
+#overview ul li img {
+  width: 100%;
+}
 #overview ul li div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center center;
+}
+#overview ul li div h3 {
+  text-align: center;
 }
 
 #media {
@@ -732,11 +758,49 @@ header #main-menu ol li a {
 #Specification ul li div img {
   width: 245px;
 }
+#Specification ul li:last-child {
+  margin: auto;
+}
 
 #reviews {
   background-image: linear-gradient(#000000, #0B203D);
   margin: 0;
   padding-top: 132px;
+  position: relative;
+}
+#reviews ul li div h3.spacing {
+  margin: 0;
+  padding: 0;
+}
+#reviews ul li div p {
+  margin: 8px;
+  padding: 0;
+}
+#reviews #rating {
+  display: block;
+}
+#reviews #rating span, #reviews #rating span::before, #reviews #rating span::after {
+  height: 10px;
+  border-radius: 100px;
+}
+#reviews #rating span::before, #reviews #rating span::after {
+  background-color: #612B8A;
+}
+#reviews #rating span {
+  display: block;
+  position: relative;
+  width: fill;
+  background-color: #BAADA4;
+}
+#reviews #rating span::before {
+  background-color: #612B8A;
+  display: inline-block;
+  position: absolute;
+  content: " ";
+  width: 50%;
+}
+#reviews #Overall-Rating {
+  display: block;
   position: relative;
 }
 #reviews a {
@@ -747,4 +811,20 @@ header #main-menu ol li a {
 #reviews a .right {
   display: flex;
   flex-direction: column;
+}
+
+#footer {
+  background-color: #000000;
+  padding: 16px;
+}
+#footer ul li {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#footer ul li:last-child {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+#footer ul li:last-child img {
+  max-width: 24px;
 }

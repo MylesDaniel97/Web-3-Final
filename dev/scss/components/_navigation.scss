@@ -11,33 +11,19 @@ header{
         display: flex;
         flex-direction: column;
     }
+        
 
     #burger-btn{
-        display: block;
-        span, span::before, span::after{
-        height: 4px;
-        width: 31px;
-        background-color: $white;
-        border-radius:100px;
-        
-
-        }
-        span{
-        display: block;
-        position: relative;
-        
-        &::before{
-        position: absolute;
-        content:" ";
-        top: -10px;
-        }
-        
-        &::after{
-        position: absolute;
-        content:" ";
-        top: 10px;
-        }
-        }
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        position:relative;
+        div{
+            height: 4px;
+            width: 31px;
+            background-color: $white;
+            border-radius:100px;
+        } 
     }
     #top-nav{
         display: flex;
@@ -75,7 +61,21 @@ header{
         }
     }
     #main-menu{
-        display: none;
+        @media only screen and (max-width: 600px) {
+            background-color: green;
+            transition:.3s;
+            height: 100vw;
+            width: 80%;
+            position: absolute;
+            top: 0;
+            right: -100%;
+  
+            &.show-menu{
+                right:0;
+                transition:.3s;
+            }
+        }
+    
         width: 100%;
         ol{
             li{

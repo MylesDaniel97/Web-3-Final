@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34484",
   "files" : {
+    "\/deploy\/checkout.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/checkout.html",
+      "oF" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -21,14 +29,38 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/Hair dryer.gif" : {
-      "ft" : 4194304,
-      "iS" : 43915709,
+    "\/deploy\/img\/.Hair-dryer.gif.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/Hair dryer.gif",
+      "oAP" : "\/deploy\/img\/.Hair-dryer.gif.icloud",
+      "oF" : 0
+    },
+    "\/deploy\/img\/facebook.png" : {
+      "ft" : 32768,
+      "iS" : 1540,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/facebook.png",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/instagram.png" : {
+      "ft" : 32768,
+      "iS" : 2116,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/instagram.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
       "rq" : 75
     },
     "\/deploy\/img\/mobile_hairdry.gif" : {
@@ -37,7 +69,7 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/mobile_hairdry.gif",
       "oF" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
@@ -46,6 +78,19 @@
       "iS" : 8151,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/MoneyBack.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/pinterest.png" : {
+      "ft" : 32768,
+      "iS" : 2293,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/pinterest.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -230,6 +275,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/deploy\/img\/twitter.png" : {
+      "ft" : 32768,
+      "iS" : 1457,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/twitter.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/User_Manual.png" : {
       "ft" : 32768,
       "iS" : 23687,
@@ -269,6 +327,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/deploy\/img\/youtube.png" : {
+      "ft" : 32768,
+      "iS" : 1029,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/youtube.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -276,6 +347,17 @@
       "oA" : 0,
       "oAP" : "\/deploy\/index.html",
       "oF" : 0
+    },
+    "\/deploy\/js\/scripts-min-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/deploy\/js\/scripts-min-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/deploy\/js\/scripts-min.js" : {
       "bF" : 0,
@@ -299,52 +381,60 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/content\/checkout page\/_billing.kit" : {
+    "\/dev\/checkout.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/checkout.html",
+      "oF" : 2
+    },
+    "\/dev\/content\/checkout-page\/_billing.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/checkout page\/_billing.html",
+      "oAP" : "\/dev\/content\/checkout-page\/_billing.html",
       "oF" : 0
     },
-    "\/dev\/content\/checkout page\/_card-info.kit" : {
+    "\/dev\/content\/checkout-page\/_card-info.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/checkout page\/_card-info.html",
+      "oAP" : "\/dev\/content\/checkout-page\/_card-info.html",
       "oF" : 0
     },
-    "\/dev\/content\/checkout page\/_cart.kit" : {
+    "\/dev\/content\/checkout-page\/_cart.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/checkout page\/_cart.html",
+      "oAP" : "\/dev\/content\/checkout-page\/_cart.html",
       "oF" : 0
     },
-    "\/dev\/content\/checkout page\/_contact-info.kit" : {
+    "\/dev\/content\/checkout-page\/_contact-info.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/checkout page\/_contact-info.html",
+      "oAP" : "\/dev\/content\/checkout-page\/_contact-info.html",
       "oF" : 0
     },
-    "\/dev\/content\/checkout page\/_method.kit" : {
+    "\/dev\/content\/checkout-page\/_method.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/checkout page\/_method.html",
+      "oAP" : "\/dev\/content\/checkout-page\/_method.html",
       "oF" : 0
     },
-    "\/dev\/content\/checkout page\/_shipping.kit" : {
+    "\/dev\/content\/checkout-page\/_shipping.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/checkout page\/_shipping.html",
+      "oAP" : "\/dev\/content\/checkout-page\/_shipping.html",
       "oF" : 0
     },
     "\/dev\/content\/product-page\/_colors.kit" : {
@@ -403,12 +493,12 @@
       "oAP" : "\/dev\/content\/product-page\/_specs.html",
       "oF" : 0
     },
-    "\/dev\/content\/Thank You\/_thanks.kit" : {
+    "\/dev\/content\/thanks-page\/_thanks.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/Thank You\/_thanks.html",
+      "oAP" : "\/dev\/content\/thanks-page\/_thanks.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
@@ -612,6 +702,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/global\/_footer.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/global\/_footer.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/sections\/product-page\/_colors.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -731,6 +836,14 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/dev\/thanks.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/thanks.html",
+      "oF" : 2
     },
     "\/README.md" : {
       "cB" : 0,

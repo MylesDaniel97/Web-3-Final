@@ -3,6 +3,54 @@
     margin: 0;
     padding-top: 132px;
     position: relative;
+    ul{
+        li{
+            div{
+            
+                h3{
+                    &.spacing{
+                        margin:0;
+                        padding: 0;
+                    }
+                }
+                p{
+                    margin: 8px;
+                    padding: 0;
+                }
+            }
+        }
+    }
+    #rating{
+        display: block;
+        span,span::before, span::after{
+            height: 10px;
+            border-radius: 100px;
+        }
+        span::before, span::after{
+            background-color: $accentviolet;
+        }
+        span{
+            display: block;
+            position: relative;
+            width: fill;
+            background-color: $beige;
+            &::before{
+                background-color: $accentviolet;
+                display: inline-block;
+                position: absolute;
+                content: " ";
+                width: 50%;
+                
+            }
+        }
+        
+
+    }
+    #Overall-Rating{
+        display: block;
+        position: relative;
+    }
+
     a{
         display: flex;
         flex-direction: column;

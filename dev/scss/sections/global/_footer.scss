@@ -1,0 +1,19 @@
+#footer{
+    background-color: $black;
+    padding: 16px;
+    ul{
+        li{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        li:last-child{
+            display: grid;
+            grid-template-columns: 1fr;
+            img{
+                max-width: 24px;
+            }
+
+        }
+    }
+
+}
