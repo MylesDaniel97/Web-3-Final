@@ -37,6 +37,14 @@
       "oAP" : "\/deploy\/img\/.Hair-dryer.gif.icloud",
       "oF" : 0
     },
+    "\/deploy\/img\/.mobile_hairdry.gif.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/.mobile_hairdry.gif.icloud",
+      "oF" : 0
+    },
     "\/deploy\/img\/facebook.png" : {
       "ft" : 32768,
       "iS" : 1540,
@@ -61,16 +69,6 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
-      "rq" : 75
-    },
-    "\/deploy\/img\/mobile_hairdry.gif" : {
-      "ft" : 4194304,
-      "iS" : 80670274,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/mobile_hairdry.gif",
-      "oF" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
       "rq" : 75
     },
     "\/deploy\/img\/MoneyBack.png" : {
@@ -380,6 +378,14 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/deploy\/thanks.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/thanks.html",
+      "oF" : 0
     },
     "\/dev\/checkout.kit" : {
       "cB" : 0,
