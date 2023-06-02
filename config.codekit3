@@ -29,14 +29,6 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/.Hair-dryer.gif.icloud" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/.Hair-dryer.gif.icloud",
-      "oF" : 0
-    },
     "\/deploy\/img\/.mobile_hairdry.gif.icloud" : {
       "cB" : 0,
       "ft" : 8192,
@@ -56,6 +48,16 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Hair-dryer.gif" : {
+      "ft" : 4194304,
+      "iS" : 43915709,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Hair-dryer.gif",
+      "oF" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
       "rq" : 75
     },
     "\/deploy\/img\/instagram.png" : {
@@ -237,6 +239,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/SharkHyperAir.png" : {
+      "ft" : 32768,
+      "iS" : 1312043,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/SharkHyperAir.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/shopping_icon.png" : {
       "ft" : 32768,
       "iS" : 1246,
@@ -395,52 +410,20 @@
       "oAP" : "\/deploy\/checkout.html",
       "oF" : 2
     },
-    "\/dev\/content\/checkout-page\/_billing.kit" : {
+    "\/dev\/content\/checkout-page\/cart.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/checkout-page\/_billing.html",
+      "oAP" : "\/dev\/content\/checkout-page\/cart.html",
       "oF" : 0
     },
-    "\/dev\/content\/checkout-page\/_card-info.kit" : {
+    "\/dev\/content\/checkout-page\/form.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/checkout-page\/_card-info.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/checkout-page\/_cart.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/checkout-page\/_cart.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/checkout-page\/_contact-info.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/checkout-page\/_contact-info.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/checkout-page\/_method.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/checkout-page\/_method.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/checkout-page\/_shipping.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/checkout-page\/_shipping.html",
+      "oAP" : "\/dev\/content\/checkout-page\/form.html",
       "oF" : 0
     },
     "\/dev\/content\/product-page\/_colors.kit" : {

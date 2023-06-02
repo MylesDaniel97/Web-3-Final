@@ -3,6 +3,38 @@
     
     ul{
         li{
+            article{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                display: flex;
+                align-items: center;
+                justify-content: left;
+                gap: 16px;
+                
+                  
+                
+                input[type="radio"]{
+                    appearance: none;
+                    background-color: none;
+                    margin: 0;
+                    width: 24px;
+                    height: 24px;
+                    border: 2px solid $greygold;
+                    border-radius: 50%;
+
+                    display: grid;
+                    place-content: center;
+                }
+                
+                  
+                input[type="radio"]:focus {
+                    box-shadow: inset 24px 24px $accentviolet;
+                    outline: max(2px, 0.15em) solid $accentviolet;
+                    outline-offset: max(2px, 0.15em);
+                    border: 2px solid $accentviolet;
+                    border-radius: 50%;
+                }
+            }
             img{
                 max-height: 61px;
                 width: 332px;

@@ -34,22 +34,37 @@ header{
             text-decoration: none;
         }
         
-        input{
-            background-color: $navyblue;
-            color: $white;
-            border: 0 solid;
-            border-radius: 100px;
-            height: 40px;
-            width: 294px;
-            padding: 16px;
-            display: none;
-            
-
-            @include lg{
-                display: inline;
+        div{
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            input{
+                background-color: $navyblue;
+                color: $white;
+                border: 0 solid;
+                border-radius: 100px;
+                height: 40px;
+                width: 294px;
+                padding: 16px;
+                display: none;
+                
+    
+                @include lg{
+                    display: inline;
+                }
             }
+            ::placeholder{color: $white;}
+            img{
+               width: 24px; 
+               height: 24px;
+               display: none;
+               @include lg{
+                display: inline;
+               }
+            }
+
         }
-        ::placeholder{color: $white;}
+        
 
     }
     #burger-container{
@@ -62,34 +77,53 @@ header{
     }
     #main-menu{
         @media only screen and (max-width: 600px) {
-            background-color: green;
+            
+            background-color: $darkblue;
             transition:.3s;
-            height: 100vw;
-            width: 80%;
+            width: 33%;
             position: absolute;
             top: 0;
             right: -100%;
-  
+            z-index: 1;
+
+
+
             &.show-menu{
                 right:0;
                 transition:.3s;
             }
         }
     
-        width: 100%;
+        
         ol{
+            padding: 0;
             li{
+
                 display: flex;
                 align-items: center;
-                justify-content: space-between;
+                justify-content: center;
+                flex-direction: column;
+                
+                p{
+                    margin: 0;
+                }
                 a{
                     text-decoration: none;
+                }
+                @include lg{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: fill;
                 }
             }
             
         }
         @include lg{
             display: inline;
+            justify-content: space-between;
+            width: 100%;
         }
         
     }

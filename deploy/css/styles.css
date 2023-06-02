@@ -323,6 +323,10 @@ template {
 /* =============
     Base
 ============= */
+* {
+  scroll-behavior: smooth;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -390,6 +394,26 @@ section {
 }
 section .box-gap {
   gap: 88px;
+}
+
+input[type=radio] {
+  appearance: none;
+  background-color: none;
+  margin: 0;
+  width: 24px;
+  height: 24px;
+  border: 2px solid #DFD5CB;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+}
+
+input[type=radio]:focus {
+  box-shadow: inset 24px 24px #612B8A;
+  outline: max(2px, 0.15em) solid #612B8A;
+  outline-offset: max(2px, 0.15em);
+  border: 2px solid #612B8A;
+  border-radius: 50%;
 }
 
 /* =============
@@ -552,7 +576,12 @@ header #top-nav {
 header #top-nav a {
   text-decoration: none;
 }
-header #top-nav input {
+header #top-nav div {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+header #top-nav div input {
   background-color: #0B203D;
   color: #FFFFFF;
   border: 0 solid;
@@ -563,12 +592,22 @@ header #top-nav input {
   display: none;
 }
 @media (min-width: 1024px) {
-  header #top-nav input {
+  header #top-nav div input {
     display: inline;
   }
 }
-header #top-nav ::placeholder {
+header #top-nav div ::placeholder {
   color: #FFFFFF;
+}
+header #top-nav div img {
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+@media (min-width: 1024px) {
+  header #top-nav div img {
+    display: inline;
+  }
 }
 header #burger-container {
   display: block;
@@ -580,35 +619,50 @@ header #burger-container {
     display: none;
   }
 }
-header #main-menu {
-  width: 100%;
-}
 @media only screen and (max-width: 600px) {
   header #main-menu {
-    background-color: green;
+    background-color: #06101E;
     transition: 0.3s;
-    height: 100vw;
-    width: 80%;
+    width: 33%;
     position: absolute;
     top: 0;
     right: -100%;
+    z-index: 1;
   }
   header #main-menu.show-menu {
     right: 0;
     transition: 0.3s;
   }
 }
+header #main-menu ol {
+  padding: 0;
+}
 header #main-menu ol li {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  flex-direction: column;
+}
+header #main-menu ol li p {
+  margin: 0;
 }
 header #main-menu ol li a {
   text-decoration: none;
 }
 @media (min-width: 1024px) {
+  header #main-menu ol li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: fill;
+  }
+}
+@media (min-width: 1024px) {
   header #main-menu {
     display: inline;
+    justify-content: space-between;
+    width: 100%;
   }
 }
 
@@ -688,6 +742,32 @@ header #main-menu ol li a {
   max-width: 332px;
   max-height: 149px;
 }
+#colors ul li article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 16px;
+}
+#colors ul li article input[type=radio] {
+  appearance: none;
+  background-color: none;
+  margin: 0;
+  width: 24px;
+  height: 24px;
+  border: 2px solid #DFD5CB;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+}
+#colors ul li article input[type=radio]:focus {
+  box-shadow: inset 24px 24px #612B8A;
+  outline: max(2px, 0.15em) solid #612B8A;
+  outline-offset: max(2px, 0.15em);
+  border: 2px solid #612B8A;
+  border-radius: 50%;
+}
 #colors ul li img {
   max-height: 61px;
   width: 332px;
@@ -764,9 +844,12 @@ header #main-menu ol li a {
 
 #reviews {
   background-image: linear-gradient(#000000, #0B203D);
-  margin: 0;
+  margin: 0 0 160px 0;
   padding-top: 132px;
   position: relative;
+}
+#reviews h1 {
+  margin: 56px;
 }
 #reviews ul li div h3.spacing {
   margin: 0;
@@ -803,14 +886,21 @@ header #main-menu ol li a {
   display: block;
   position: relative;
 }
-#reviews a {
+#reviews a.left {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  justify-content: right;
+  position: absolute;
+  top: 216px;
+  left: 0px;
 }
-#reviews a .right {
+#reviews a.right {
   display: flex;
   flex-direction: column;
+  justify-content: right;
+  position: absolute;
+  right: 0;
+  bottom: -56px;
 }
 
 #footer {
