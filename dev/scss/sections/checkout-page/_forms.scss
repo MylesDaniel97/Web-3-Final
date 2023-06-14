@@ -1,7 +1,159 @@
+#cart{
+    display: flex;
+    flex-direction: column;
+    background-color: $white;
+    margin: 16px;
+    padding: 16px 16px 0px 16px;
+    border-radius: 15px;
+    max-width: 100%;
+    @include lg{
+    
+    
+    }
+    p, h2{
+        color: $black;
+        padding: 16px;
+        margin: 0;
+    }
+    
+    img{
+        width: 76px;
+        height: 76px;
+        border: 2px solid $black;
+        
+    
+    }
+    aside{
+        display: flex;
+        flex-direction: row;
+        &.center{
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        
+        &.list{
+            display: flex;
+            flex-direction: column;
+        }
+        div{
+            .qty-input {
+                color: $black;
+                background: $white;
+                display: flex;
+                align-items: center;
+                overflow: hidden;
+            
+                .product-qty,
+                .qty-count {
+                    background: transparent;
+                    color: inherit;
+                    font-weight: bold;
+                    font-size: inherit;
+                    border: none;
+                    display: inline-block;
+                    min-width: 0;
+                    height: 2.5rem;
+                    line-height: 1;
+                    
+            
+                    &:focus {
+                        outline: none;
+                    }
+                }
+            
+                .product-qty {
+                    width: 50px;
+                    min-width: 0;
+                    display: inline-block;
+                    text-align: center;
+                    appearance: textfield;		
+                    
+                    &::-webkit-outer-spin-button,
+                    &::-webkit-inner-spin-button {
+                        appearance: none;
+                        margin: 0;
+                    }
+                }
+            
+                .qty-count {
+                    padding: 0;
+                    cursor: pointer;
+                    width: 2.5rem;
+                    font-size: 1.25em;
+                    text-indent: -100px;
+                    overflow: hidden;
+                    position: relative;
+                    
+                    &:before, 
+                    &:after {
+                        content: "";
+                        height: 2px;
+                        width: 10px;
+                        position: absolute;
+                        display: block;
+                        background: $black;
+                        top: 0;
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+                        margin: auto;
+                    }
+                    &--minus {
+                        border-right: 1px solid $greygold;
+                    }
+                    &--add {
+                        border-left: 1px solid $greygold;
+                        &:after {
+                            transform: rotate(90deg);
+                        }
+                    }
+                    
+                    &:disabled {
+                        color: $backgroundgrey;
+                        background: $backgroundgrey;
+                        cursor: not-allowed;
+                        border-color: transparent;
+                        
+                        &:before,
+                        &:after {
+                            background: $backgroundgrey;
+                        }
+                    }
+                }
+            }
+            
+           
+            
+    
+            
+            
+
+
+            &.price{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 2px solid $black;
+            }
+            h3{
+                color: $black;
+                border: 1px solid $black;
+                padding: 0;
+                &:hover{
+                    color: red;
+                    border: 2px solid red;
+                }
+            }
+        } 
+    }
+}
+
 form{
     display: flex;
     flex-direction: column;
-    max-width: 766px;
+    max-width: 100%;
     margin: 0 16px 0 16px;
     
     
@@ -44,7 +196,7 @@ form{
             flex-direction: row;
             justify-content: left;
             align-items: center;
-            max-width: 766px;
+            max-width: 100%;
             margin: 2px;
             padding:16px 16px 16px 0;
             background-color: $white;
@@ -73,5 +225,8 @@ form{
             width: fit-content;
         }
     }
+}
+#Pay{
+    margin: 38px 16px;
 }
 

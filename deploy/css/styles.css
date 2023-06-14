@@ -903,10 +903,132 @@ header #main-menu ol li a {
   bottom: -56px;
 }
 
+#cart {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  margin: 16px;
+  padding: 16px 16px 0px 16px;
+  border-radius: 15px;
+  max-width: 100%;
+}
+#cart p, #cart h2 {
+  color: #000000;
+  padding: 16px;
+  margin: 0;
+}
+#cart img {
+  width: 76px;
+  height: 76px;
+  border: 2px solid #000000;
+}
+#cart aside {
+  display: flex;
+  flex-direction: row;
+}
+#cart aside.center {
+  align-items: center;
+  justify-content: space-between;
+}
+#cart aside.list {
+  display: flex;
+  flex-direction: column;
+}
+#cart aside div .qty-input {
+  color: #000000;
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+#cart aside div .qty-input .product-qty,
+#cart aside div .qty-input .qty-count {
+  background: transparent;
+  color: inherit;
+  font-weight: bold;
+  font-size: inherit;
+  border: none;
+  display: inline-block;
+  min-width: 0;
+  height: 2.5rem;
+  line-height: 1;
+}
+#cart aside div .qty-input .product-qty:focus,
+#cart aside div .qty-input .qty-count:focus {
+  outline: none;
+}
+#cart aside div .qty-input .product-qty {
+  width: 50px;
+  min-width: 0;
+  display: inline-block;
+  text-align: center;
+  appearance: textfield;
+}
+#cart aside div .qty-input .product-qty::-webkit-outer-spin-button, #cart aside div .qty-input .product-qty::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+#cart aside div .qty-input .qty-count {
+  padding: 0;
+  cursor: pointer;
+  width: 2.5rem;
+  font-size: 1.25em;
+  text-indent: -100px;
+  overflow: hidden;
+  position: relative;
+}
+#cart aside div .qty-input .qty-count:before, #cart aside div .qty-input .qty-count:after {
+  content: "";
+  height: 2px;
+  width: 10px;
+  position: absolute;
+  display: block;
+  background: #000000;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#cart aside div .qty-input .qty-count--minus {
+  border-right: 1px solid #DFD5CB;
+}
+#cart aside div .qty-input .qty-count--add {
+  border-left: 1px solid #DFD5CB;
+}
+#cart aside div .qty-input .qty-count--add:after {
+  transform: rotate(90deg);
+}
+#cart aside div .qty-input .qty-count:disabled {
+  color: #626262;
+  background: #626262;
+  cursor: not-allowed;
+  border-color: transparent;
+}
+#cart aside div .qty-input .qty-count:disabled:before, #cart aside div .qty-input .qty-count:disabled:after {
+  background: #626262;
+}
+#cart aside div.price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #000000;
+}
+#cart aside div h3 {
+  color: #000000;
+  border: 1px solid #000000;
+  padding: 0;
+}
+#cart aside div h3:hover {
+  color: red;
+  border: 2px solid red;
+}
+
 form {
   display: flex;
   flex-direction: column;
-  max-width: 766px;
+  max-width: 100%;
   margin: 0 16px 0 16px;
 }
 form div.shipping {
@@ -936,7 +1058,7 @@ form input[type=text]:focus {
   flex-direction: row;
   justify-content: left;
   align-items: center;
-  max-width: 766px;
+  max-width: 100%;
   margin: 2px;
   padding: 16px 16px 16px 0;
   background-color: #FFFFFF;
@@ -961,6 +1083,14 @@ form input[type=text]:focus {
 }
 #Method aside form {
   width: fit-content;
+}
+
+#Pay {
+  margin: 38px 16px;
+}
+
+img {
+  max-width: 551px;
 }
 
 #footer {

@@ -44,113 +44,148 @@
         </nav>
     </header>
 
-    <h1>Cart</h1>
+    
+    
+    <h3>Cart Summary</h3>
+    <article id="cart">
+        <aside class="center">
+            <img src="img/SharkHyperAir.png" alt="Shark Hyper Air">
+            <p>Shark HyperAIR™ with IQ 2-in-1 Concentrator and IQ Styling Brush (Stone)</p>
+            <div class="qty-input">
+                <button class="qty-count qty-count--minus" data-action="minus" type="button">-</button>
+                <input class="product-qty" type="number" name="product-qty" min="0" max="10" value="1">
+                <button class="qty-count qty-count--add" data-action="add" type="button">+</button>
+                <h3>X</h3>
+            </div>
+            
+                
+                
+            
+    
+        </aside>
+        <aside class="list">
+            <div class="price">
+                <p>Subtotal</p>
+                <p>$299</p>
+            </div>
+            <div class="price">
+                <p>Shipping</p>
+                <p>$35.35</p>
+            </div>
+            <div class="price">
+                <p>Total</p>
+                <h2>$264</h2>
+            </div>
+        </aside>
+        
+    </article>
     <h3>Shipping Information</h3>
-        <form action="">
-            <div class="shipping"> 
-                <label for="Name">Name*</label>
-                <input type="text" name="Name" placeholder="Name">
-            </div>
-            <div class="shipping"> 
-                <label for="Mobile Number">Mobile Number*</label>
-                <input type="text" name="Mobile Number" placeholder="+1(xxx)-xxx-xxxx">
-            </div>
-            <div class="shipping"> 
-                <label for="Email">Email</label>
-                <input type="text" name="Email" placeholder="jakebarb12@hotmail.com">
-            </div>
-            <div class="shipping"> 
-                <label for="Address">Address*</label>
-                <input type="text" name="Address" placeholder="12 WebGraph Str">
-            </div>
-            <div class="shipping"> 
-                <label for="City">City*</label>
-                <input type="text" name="City" placeholder="City">
-            </div>
-            <div class="shipping"> 
-                <label for="State">State*</label>
-                <input type="text" name="State" placeholder="State">
-            </div>
-            <div class="shipping"> 
-                <label for="ZIP">ZIP Code*</label>
-                <input type="text" name="ZIP" placeholder="XXXXX">
-            </div>
-        </form>
-        <h3>Shipping Method</h3>
-        <article id="Method">
-            <aside class="row">
-                <form>
-                    <label for="radio"></label>
-                    <input type="radio" name="radio"> 
-                </form>
-                <h3>Economy</h3>
-                <p>(5-7 Business days)</p>
-            <div>
-                <p>Free</p>  
-            </div>
-            </aside>
-            <aside class="row">
-                <form>
-                    <label for="radio"></label>
-                    <input type="radio" name="radio"> 
-                </form>
-                <h3>Express</h3>
-                <p>(2-3 Business days)</p>
-            <div>
-                <p>$$.$$</p>  
-            </div>
-            </aside>
-            <aside class="row">
-                <form>
-                    <label for="radio"></label>
-                    <input type="radio" name="radio"> 
-                </form>
-                <h3>Over-Night Delivery</h3>
-                <p>(1 Business days)</p>
-            <div>
-                <p>$$.$$</p>  
-            </div>
-            </aside>
-        </article>
-        <h3>Credit/Debit Card</h3>
-        <form action="">
-            <div class="shipping"> 
-                <label for="Card Number">Card Number*</label>
-                <input type="text" name="Card Number" placeholder="XXXX XXXX XXXX XXXX">
-            </div>
-            <div class="shipping"> 
-                <label for="Name on Card">Name on Card*</label>
-                <input type="text" name="Name on Card" placeholder="Name on Card">
-            </div>
-            <div class="shipping"> 
-                <label for="Exp.">Exp. Date*</label>
-                <input type="text" name="Exp." placeholder="MM/YY">
-            </div>
-            <div class="shipping"> 
-                <label for="CVC">CVC*</label>
-                <input type="text" name="CVC" placeholder="XXX">
-            </div>
-        </form>
-        <h3>Billing Address</h3>
-        <article id="Method">
-            <aside class="row">
-                <form>
-                    <label for="radio"></label>
-                    <input type="radio" name="radio"> 
-                </form>
-                <h3>Same as Shipping Address</h3>
-            </aside>
-            <aside class="row">
-                <form>
-                    <label for="radio"></label>
-                    <input type="radio" name="radio"> 
-                </form>
-                <h3>Use a Different Address</h3>
-            </aside>
-        </article>
-        <label for="radio"></label>
-        <input type="radio" name="radio">
+    <form action="">
+        <div class="shipping"> 
+            <label for="Name">Name*</label>
+            <input type="text" name="Name" placeholder="Name">
+        </div>
+        <div class="shipping"> 
+            <label for="Mobile Number">Mobile Number*</label>
+            <input type="text" name="Mobile Number" placeholder="+1(xxx)-xxx-xxxx">
+        </div>
+        <div class="shipping"> 
+            <label for="Email">Email</label>
+            <input type="text" name="Email" placeholder="jakebarb12@hotmail.com">
+        </div>
+        <div class="shipping"> 
+            <label for="Address">Address*</label>
+            <input type="text" name="Address" placeholder="12 WebGraph Str">
+        </div>
+        <div class="shipping"> 
+            <label for="City">City*</label>
+            <input type="text" name="City" placeholder="City">
+        </div>
+        <div class="shipping"> 
+            <label for="State">State*</label>
+            <input type="text" name="State" placeholder="State">
+        </div>
+        <div class="shipping"> 
+            <label for="ZIP">ZIP Code*</label>
+            <input type="text" name="ZIP" placeholder="XXXXX">
+        </div>
+    </form>
+    <h3>Shipping Method</h3>
+    <article id="Method">
+        <aside class="row">
+            <form>
+                <label for="radio"></label>
+                <input type="radio" name="radio"> 
+            </form>
+            <h3>Economy</h3>
+            <p>(5-7 Business days)</p>
+        <div>
+            <p>Free</p>  
+        </div>
+        </aside>
+        <aside class="row">
+            <form>
+                <label for="radio"></label>
+                <input type="radio" name="radio"> 
+            </form>
+            <h3>Express</h3>
+            <p>(2-3 Business days)</p>
+        <div>
+            <p>$$.$$</p>  
+        </div>
+        </aside>
+        <aside class="row">
+            <form>
+                <label for="radio"></label>
+                <input type="radio" name="radio"> 
+            </form>
+            <h3>Over-Night Delivery</h3>
+            <p>(1 Business days)</p>
+        <div>
+            <p>$$.$$</p>  
+        </div>
+        </aside>
+    </article>
+    <h3>Credit/Debit Card</h3>
+    <form action="">
+        <div class="shipping"> 
+            <label for="Card Number">Card Number*</label>
+            <input type="text" name="Card Number" placeholder="XXXX XXXX XXXX XXXX">
+        </div>
+        <div class="shipping"> 
+            <label for="Name on Card">Name on Card*</label>
+            <input type="text" name="Name on Card" placeholder="Name on Card">
+        </div>
+        <div class="shipping"> 
+            <label for="Exp.">Exp. Date*</label>
+            <input type="text" name="Exp." placeholder="MM/YY">
+        </div>
+        <div class="shipping"> 
+            <label for="CVC">CVC*</label>
+            <input type="text" name="CVC" placeholder="XXX">
+        </div>
+    </form>
+    <h3>Billing Address</h3>
+    <article id="Method">
+        <aside class="row">
+            <form>
+                <label for="radio"></label>
+                <input type="radio" name="radio"> 
+            </form>
+            <h3>Same as Shipping Address</h3>
+        </aside>
+        <aside class="row">
+            <form>
+                <label for="radio"></label>
+                <input type="radio" name="radio"> 
+            </form>
+            <h3>Use a Different Address</h3>
+        </aside>
+    </article>
+    <article id="Pay">
         <a href="/deploy/thanks.html" class="cart-button">Pay Now</a>
+    </article>
+    
     
 
     
