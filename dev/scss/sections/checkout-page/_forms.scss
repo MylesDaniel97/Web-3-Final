@@ -1,0 +1,77 @@
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 766px;
+    margin: 0 16px 0 16px;
+    
+    
+    
+    
+    
+    div{
+        &.shipping{
+            display: flex;
+            flex-direction: column;
+            background-color: $white;
+            margin: 0 0 24px 0;
+            padding: 16px;
+            border-radius: 5px;
+        }
+    
+    }
+    
+    input[type=text]{
+        padding: 16px;
+        font-size: 18px;
+        width: auto;
+        border: 0px;
+        background-color: $white;
+    
+        &:focus{
+        color: $black;
+        }
+    
+    }
+    
+    
+}
+#Method{
+    margin: 0 16px;
+    aside{
+        
+        &.row{
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            align-items: center;
+            max-width: 766px;
+            margin: 2px;
+            padding:16px 16px 16px 0;
+            background-color: $white;
+            gap: 8px;
+    
+            h3{
+                color: $black;
+                margin: 0;
+                padding: 0;
+                
+            }
+            p{
+                color: $black;
+                margin: 0;
+                padding: 0;
+                width: 100%;
+            }
+            div{
+                display: flex;
+                justify-content: flex-end;
+                margin: 0;
+                padding: 0;
+            }
+        }
+        form{
+            width: fit-content;
+        }
+    }
+}
+

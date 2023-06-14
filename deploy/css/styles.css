@@ -903,6 +903,66 @@ header #main-menu ol li a {
   bottom: -56px;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 766px;
+  margin: 0 16px 0 16px;
+}
+form div.shipping {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  margin: 0 0 24px 0;
+  padding: 16px;
+  border-radius: 5px;
+}
+form input[type=text] {
+  padding: 16px;
+  font-size: 18px;
+  width: auto;
+  border: 0px;
+  background-color: #FFFFFF;
+}
+form input[type=text]:focus {
+  color: #000000;
+}
+
+#Method {
+  margin: 0 16px;
+}
+#Method aside.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  max-width: 766px;
+  margin: 2px;
+  padding: 16px 16px 16px 0;
+  background-color: #FFFFFF;
+  gap: 8px;
+}
+#Method aside.row h3 {
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+#Method aside.row p {
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+#Method aside.row div {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+#Method aside form {
+  width: fit-content;
+}
+
 #footer {
   background-color: #000000;
   padding: 16px;
