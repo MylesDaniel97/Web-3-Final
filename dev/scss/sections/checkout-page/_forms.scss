@@ -37,15 +37,16 @@
             flex-direction: column;
         }
         div{
-            .qty-input {
+            &.qty-input {
                 color: $black;
                 background: $white;
                 display: flex;
                 align-items: center;
-                overflow: hidden;
+                overflow: visible;
+                flex-direction: row;
             
-                .product-qty,
-                .qty-count {
+                &.product-qty,
+                &.qty-count {
                     background: transparent;
                     color: inherit;
                     font-weight: bold;
@@ -62,7 +63,7 @@
                     }
                 }
             
-                .product-qty {
+                &.product-qty {
                     width: 50px;
                     min-width: 0;
                     display: inline-block;
@@ -76,7 +77,7 @@
                     }
                 }
             
-                .qty-count {
+                &.qty-count {
                     padding: 0;
                     cursor: pointer;
                     width: 2.5rem;
